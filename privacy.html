@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CleanerZX for Android — Privacy Policy</title>
+<style>
+  body { font-family: -apple-system, Roboto, "Segoe UI", sans-serif; max-width: 760px;
+         margin: 0 auto; padding: 24px 20px 64px; color: #171a21; line-height: 1.6; }
+  h1 { font-size: 1.7em; } h2 { font-size: 1.2em; margin-top: 1.8em; }
+  .meta { color: #5b6470; font-size: 0.95em; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.95em; }
+  th, td { border: 1px solid #dde3ee; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #eef2f9; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #0a0f1e; color: #f0f1f5; }
+    .meta { color: #a8b3c4; }
+    th, td { border-color: #2a3550; } th { background: #1d2639; }
+  }
+</style>
+</head>
+<body>
+<h1>Privacy Policy — CleanerZX for Android</h1>
+<p class="meta">Developer: ZXApps &middot; Effective date: 29 September 2026</p>
+
+<p>CleanerZX ("the app") is an on-device cleanup tool for photos, videos, contacts, and files.
+This policy explains what information the app accesses, how it is used, and what leaves your
+device: <strong>nothing does</strong>. CleanerZX has no user accounts, no analytics, no
+advertising SDKs, and no servers of its own in this release.</p>
+
+<h2>Summary</h2>
+<ul>
+  <li>All scanning and analysis happens locally on your device.</li>
+  <li>The app does not collect, transmit, sell, or share any personal data.</li>
+  <li>Nothing you scan — photos, videos, contacts, or files — ever leaves your phone.</li>
+</ul>
+
+<h2>Information the app accesses, and why</h2>
+<table>
+  <tr><th>Data</th><th>Permission</th><th>Why the app needs it</th><th>Where it goes</th></tr>
+  <tr>
+    <td>Photos &amp; videos</td>
+    <td>Photos and videos access (<code>READ_MEDIA_IMAGES</code>, <code>READ_MEDIA_VIDEO</code>)</td>
+    <td>The app's core purpose: scanning your library to find duplicates, blurry photos,
+        screenshots, screen recordings, and large files so you can review and remove them.
+        Analysis (including duplicate fingerprinting and image-quality checks) runs entirely
+        on the device.</td>
+    <td>Stays on your device</td>
+  </tr>
+  <tr>
+    <td>Contacts</td>
+    <td>Contacts access (<code>READ_CONTACTS</code>, <code>WRITE_CONTACTS</code>)</td>
+    <td>Comparing names, phone numbers, and email addresses on the device to show duplicate,
+        incomplete, and empty contact cards. Contacts are only changed or deleted after you
+        review and confirm.</td>
+    <td>Stays on your device</td>
+  </tr>
+  <tr>
+    <td>Files in folders you pick</td>
+    <td>Storage Access Framework (folder you select)</td>
+    <td>Optionally including a folder you choose (such as Downloads) in cleanup results. The
+        app can only see folders you explicitly grant.</td>
+    <td>Stays on your device</td>
+  </tr>
+  <tr>
+    <td>Notifications</td>
+    <td><code>POST_NOTIFICATIONS</code></td>
+    <td>Showing the scan reminders you schedule. Reminders are scheduled on the device; no
+        push service is used.</td>
+    <td>Stays on your device</td>
+  </tr>
+</table>
+
+<h2>Data collection and sharing</h2>
+<p>The app collects <strong>no</strong> personal or sensitive user data and shares
+<strong>no</strong> data with third parties. There are no analytics, advertising, or tracking
+SDKs in the app, no account or sign-in, and no data transfer off the device. The app does not
+use the network to process your content.</p>
+
+<h2>Storage and retention</h2>
+<p>Scan results (for example, which photos were classified as duplicates, and scan history)
+are stored in a local database on your device only, so results are still there when you
+reopen the app. This cache is deleted when you clear the app's data or uninstall the app.
+Your reminder and settings choices are stored the same way.</p>
+
+<h2>Deletion and your control</h2>
+<ul>
+  <li>Photos and videos you delete through the app are moved to Android's system trash, where
+      they remain recoverable for about 30 days, using Android's own confirmation dialog.</li>
+  <li>Contact deletions are performed only after an explicit in-app confirmation and are
+      permanent.</li>
+  <li>You can revoke any permission at any time in Android Settings; the related feature simply
+      stops working.</li>
+</ul>
+
+<h2>Security</h2>
+<p>Because your data never leaves the device, its security is governed by your device's own
+protections (screen lock, encryption). The app's local database is stored in the app's
+private storage, which other apps cannot read on standard Android devices.</p>
+
+<h2>Children</h2>
+<p>CleanerZX is not directed at children under 13, and the app collects no data from any
+user, including children.</p>
+
+<h2>Changes to this policy</h2>
+<p>If a future version of the app changes these practices — for example, by adding
+subscriptions or advertising — this policy will be updated at this URL before that version is
+released, and the in-app disclosures will be updated to match.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy or your data: <strong>ZXApps</strong> —
+<a href="mailto:REPLACE-WITH-YOUR-SUPPORT-EMAIL">REPLACE-WITH-YOUR-SUPPORT-EMAIL</a></p>
+</body>
+</html>
