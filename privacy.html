@@ -69,6 +69,16 @@ advertising SDKs, and no servers of its own in this release.</p>
         push service is used.</td>
     <td>Stays on your device</td>
   </tr>
+  <tr>
+    <td>Installed apps &amp; app usage</td>
+    <td><code>QUERY_ALL_PACKAGES</code>, Usage access (<code>PACKAGE_USAGE_STATS</code>,
+        granted by you in system settings)</td>
+    <td>The App cache and Unused apps tools: measuring each app's cache and storage size and
+        showing when apps were last opened, so you can clear caches and uninstall apps you no
+        longer use. The list of your apps and their usage is read locally for display only —
+        it is never stored, logged, or transmitted.</td>
+    <td>Stays on your device</td>
+  </tr>
 </table>
 
 <h2>Data collection and sharing</h2>
@@ -89,6 +99,10 @@ Your reminder and settings choices are stored the same way.</p>
       they remain recoverable for about 30 days, using Android's own confirmation dialog.</li>
   <li>Contact deletions are performed only after an explicit in-app confirmation and are
       permanent.</li>
+  <li>Files deleted by the Junk files tool (in folders you granted) are removed permanently
+      after an explicit confirmation — they do not go to a trash.</li>
+  <li>App uninstalls and cache clearing always go through Android's own system screens; the
+      app never removes another app or its data by itself.</li>
   <li>You can revoke any permission at any time in Android Settings; the related feature simply
       stops working.</li>
 </ul>
