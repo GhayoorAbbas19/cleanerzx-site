@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CleanerZX: Clean Up Storage — Privacy Policy</title>
+<title>CleanerZX: Phone Junk Cleaner — Privacy Policy</title>
 <style>
   body { font-family: -apple-system, Roboto, "Segoe UI", sans-serif; max-width: 760px;
          margin: 0 auto; padding: 24px 20px 64px; color: #171a21; line-height: 1.6; }
@@ -20,19 +20,33 @@
 </style>
 </head>
 <body>
-<h1>Privacy Policy — CleanerZX: Clean Up Storage</h1>
-<p class="meta">Developer: ZXApps &middot; Effective date: 29 September 2026 &middot; Last updated: 11 October 2026</p>
+<h1>Privacy Policy — CleanerZX: Phone Junk Cleaner</h1>
+<p class="meta">Developer: ZXApps &middot; Effective date: 29 September 2026 &middot; Last updated: 16 October 2026</p>
 
-<p>CleanerZX: Clean Up Storage (also called "CleanerZX" or "the app"), published on Google Play by ZXApps, is an on-device cleanup tool for photos, videos, contacts, and files.
+<p>CleanerZX: Phone Junk Cleaner (also called "CleanerZX" or "the app"), published on Google Play by ZXApps, is an on-device cleanup tool for photos, videos, contacts, and files.
 This policy explains what information the app accesses, how it is used, and what leaves your
-device: <strong>nothing does</strong>. CleanerZX has no user accounts, no analytics, no
-advertising SDKs, and no servers of its own in this release.</p>
+device. Your photos, videos, contacts, and files <strong>never leave your device</strong>.
+CleanerZX has no user accounts and no servers of its own. The app is free and supported by
+advertising served through Google AdMob, and it uses Firebase Crashlytics and Firebase
+Analytics to find crashes and understand which features are used. The sections
+<a href="#advertising">Advertising</a> and <a href="#analytics">Crash reporting and
+analytics</a> below describe what that involves.</p>
 
 <h2>Summary</h2>
 <ul>
   <li>All scanning and analysis happens locally on your device.</li>
-  <li>The app does not collect, transmit, sell, or share any personal data.</li>
   <li>Nothing you scan — photos, videos, contacts, or files — ever leaves your phone.</li>
+  <li>ZXApps itself does not collect, store, sell, or share any personal data.</li>
+  <li>Ads are shown through Google AdMob. To serve and measure ads, Google receives standard
+      advertising data from your device (such as the advertising ID, IP address, and device
+      and app information). Where the law requires it, you are asked for consent first and can
+      change your choice at any time.</li>
+  <li>Crash reports and anonymous usage statistics (which screens and features are used, scan
+      counts and sizes) go to Google Firebase. They never include your photos, contacts, file
+      names, or anything that identifies you personally.</li>
+  <li>The optional "Remove ads" purchase is processed entirely by Google Play. ZXApps never
+      sees your payment details; the app only receives a purchase token from Google Play that
+      confirms the purchase.</li>
 </ul>
 
 <h2>Information the app accesses, and why</h2>
@@ -81,11 +95,71 @@ advertising SDKs, and no servers of its own in this release.</p>
   </tr>
 </table>
 
+<h2 id="advertising">Advertising</h2>
+<p>CleanerZX shows ads from Google AdMob, operated by Google LLC. Ads appear in the following
+places: a full-screen ad after the welcome screens, an ad card on the Home screen, a rewarded
+video that you watch to start a Smart scan, and banner ads on the Library and Contacts tabs.</p>
+<p>The Google Mobile Ads SDK runs inside the app and, when an ad is requested, sends Google the
+data needed to select, serve, and measure ads. Depending on your settings this can include:</p>
+<ul>
+  <li>Your device's advertising ID (resettable in Android Settings &raquo; Privacy &raquo; Ads).</li>
+  <li>IP address and approximate (country/city-level) location derived from it.</li>
+  <li>Device and app information: device model, operating system version, language, screen
+      size, the app's package name and version, and network type.</li>
+  <li>Ad interaction data: which ads were shown, viewed, clicked, or completed.</li>
+</ul>
+<p>This data goes to Google, not to ZXApps. ZXApps only sees aggregated reporting (impressions,
+clicks, and earnings) and cannot identify individual users from it. Google's use of this data
+is governed by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and
+described in <a href="https://policies.google.com/technologies/partner-sites">How Google uses
+information from sites or apps that use our services</a>. Your content — photos, videos,
+contacts, files, scan results — is never shared with Google or any advertiser.</p>
+<p><strong>Your choices.</strong> In the European Economic Area, the United Kingdom, and
+Switzerland, the app asks for your consent to personalized advertising before any ad is
+requested, using Google's consent framework; you can review or change that choice at any time
+in the app under Account &raquo; Privacy options. Everywhere else, you can opt out of ad
+personalization or reset your advertising ID in Android Settings &raquo; Privacy &raquo; Ads.
+The app works fully whether or not you consent to personalized ads.</p>
+
+<h2 id="analytics">Crash reporting and analytics</h2>
+<p>The app uses two Google Firebase services, operated by Google LLC:</p>
+<ul>
+  <li><strong>Firebase Crashlytics</strong> sends a report when the app crashes or hits an
+      internal error. A report contains the stack trace, the app version, device model and
+      operating system version, free memory and storage, whether the device is rooted, a
+      random installation identifier (Crashlytics installation ID), and a short log of the
+      app's recent steps (for example "scan_started"). It does not contain your media, contacts,
+      or file names.</li>
+  <li><strong>Firebase Analytics</strong> records anonymous usage events: which screens were
+      opened, when the welcome flow was completed, when a scan started and finished and how
+      much space it found, which cleanup categories were used and how many items were removed,
+      how many contacts were deleted, and whether ads were shown or failed to load. Events carry
+      counts and sizes only, never names or content. Analytics also records the app instance
+      ID, device model, OS version, language, country derived from IP address, and app version.</li>
+</ul>
+<p>ZXApps uses this data only to fix crashes and improve the app. It is stored by Google on
+ZXApps' behalf; Crashlytics data is kept for 90 days and Analytics event data for up to
+14 months. Google's handling of it is described in the
+<a href="https://firebase.google.com/support/privacy">Firebase Privacy and Security</a> page.
+Crash reporting and analytics cannot be switched off inside the app, but uninstalling the app
+stops all collection, and the identifiers are reset on reinstall.</p>
+
+<h2 id="purchases">Purchases</h2>
+<p>The app offers a single optional in-app purchase, "Remove ads", which switches advertising
+off. The purchase is made through Google Play, operated by Google LLC, and is governed by
+Google Play's terms and <a href="https://policies.google.com/privacy">privacy policy</a>.
+Your payment method, billing address, and order history are handled by Google Play and are
+never transmitted to or stored by ZXApps. The app only receives a purchase token from Google
+Play, which it uses to confirm that the purchase belongs to the signed-in Google account,
+acknowledge it, and remember on the device that ads should stay off. The app also records
+an anonymous analytics event (see below) when a purchase is started, completed, or restored;
+it contains no payment or account details.</p>
+
 <h2>Data collection and sharing</h2>
-<p>The app collects <strong>no</strong> personal or sensitive user data and shares
-<strong>no</strong> data with third parties. There are no analytics, advertising, or tracking
-SDKs in the app, no account or sign-in, and no data transfer off the device. The app does not
-use the network to process your content.</p>
+<p>Beyond the advertising, purchase, crash-reporting, and analytics data described above, the app
+collects <strong>no</strong> personal or sensitive user data and shares <strong>no</strong>
+data with third parties. There is no account or sign-in, and no transfer of your content off
+the device. The network is used only for ads, the consent form, and Firebase reporting.</p>
 
 <h2>Storage and retention</h2>
 <p>Scan results (for example, which photos were classified as duplicates, and scan history)
@@ -113,13 +187,17 @@ protections (screen lock, encryption). The app's local database is stored in the
 private storage, which other apps cannot read on standard Android devices.</p>
 
 <h2>Children</h2>
-<p>CleanerZX is not directed at children under 13, and the app collects no data from any
-user, including children.</p>
+<p>CleanerZX is not directed at children under 13 and does not knowingly collect data from
+children. Ad requests are not tagged as child-directed. If you believe a child has used the
+app, resetting the device's advertising ID removes the identifier that was shared with Google.</p>
 
 <h2>Changes to this policy</h2>
 <p>If a future version of the app changes these practices — for example, by adding
-subscriptions or advertising — this policy will be updated at this URL before that version is
-released, and the in-app disclosures will be updated to match.</p>
+subscriptions or new third-party services — this policy will be updated at this URL before
+that version is released, and the in-app disclosures will be updated to match.</p>
+<p><em>16 October 2026:</em> added the Advertising and Crash reporting and analytics sections
+when ads, Firebase Crashlytics, and Firebase Analytics were introduced, and the Purchases
+section for the one-time "Remove ads" purchase.</p>
 
 <h2>Contact</h2>
 <p>Questions about this policy or your data: <strong>ZXApps</strong> —
